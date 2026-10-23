@@ -1,0 +1,10 @@
+QuadWild-BiMDF, release v0.0.2 (Windows binaries, unmodified)
+Source and releases: https://github.com/cgg-bern/quadwild-bimdf
+Authors: Pietroni, Nuvoli, Alderighi, Tarini, Livesu (QuadWild); Heistermann, Born, Bommes, Campen,
+Zorin, Pietroni et al. / Computer Graphics Group, University of Bern (BiMDF solver extension).
+License: GNU GPL v3 (see LICENSE-QuadWild-GPL3.txt).
+
+RemeshPortal runs these two programs as separate processes:
+  quadwild.exe and quad_from_patches.exe
+The other tools of the release (cli_trace.exe, viz_mesh_results.exe) are not needed and not included.
+The Microsoft C++ runtime DLLs they need (msvcp140.dll, vcruntime140.dll) are copied here by build_windows.bat.

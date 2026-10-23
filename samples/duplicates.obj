@@ -1,0 +1,10 @@
+# two triangles sharing an edge, but the shared vertices are duplicated + 1 unused vertex
+v 0 0 0
+v 1 0 0
+v 0 1 0
+v 1 0 0
+v 0 1 0
+v 1 1 0
+v 5 5 5
+f 1 2 3
+f 4 6 5
